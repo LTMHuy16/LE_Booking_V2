@@ -1,0 +1,59 @@
+{
+	"editor.linkedEditing": true,
+	"editor.bracketPairColorization.enabled": true,
+	"editor.guides.bracketPairs": true,
+	"editor.guides.highlightActiveIndentation": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit",
+		"source.fixAll.stylelint": "explicit"
+	},
+	"editor.formatOnSave": true,
+	"editor.formatOnType": true,
+	"eslint.validate": [
+		"javascript",
+		"javascriptreact",
+		"typescript",
+		"typescriptreact"
+	],
+	"stylelint.packageManager": "npm",
+	"stylelint.reportInvalidScopeDisables": true,
+	"stylelint.reportNeedlessDisables": true,
+	"stylelint.snippet": ["css", "less", "postcss", "scss"],
+	"stylelint.validate": ["css", "less", "postcss", "scss"],
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"typescript.updateImportsOnFileMove.enabled": "always",
+
+	// search engine
+	"search.exclude": {
+		"**/node_modules": true,
+		"**/bower_components": true,
+		"**/*.code-search": true,
+		"**/dist": true
+	},
+
+	// Formatters
+	"json.format.enable": false,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[css]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[scss]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+
+	// Folder and files
+	"files.exclude": {
+		"**/node_modules": true
+	},
+
+	"files.eol": "\n",
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+	"explorer.fileNesting.enabled": true,
+	"explorer.fileNesting.patterns": {
+		"package.json": ".nvmrc, .editorconfig, .gitignore, .npmrc, config.yml, yarn.lock, package-lock.json, pnpm-lock.yaml, .eslintrc*, .prettierignore, .prettierrc*, .stylelintrc*, postcss.config.js, babel.config.json, tsconfig.json, .env.example, .lintstagedrc, .browserslistrc, .env, vite.config*, README.MD, .gitattributes"
+	},
+
+	// Tailwind
+	"tailwindCSS.rootFontSize": 10
+}
